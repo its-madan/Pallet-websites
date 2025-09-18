@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6864f870b6729928193134c2"
+  },
+  "basePalletCost": {
+    "custom": 1200,
+    "heavy-duty": 1500,
+    "standard": 800,
+    "euro": 950
+  },
+  "minimumOrderQuantity": 10,
+  "priceIncreasePercentBelowMinimum": 10,
+  "materialSurcharge": {
+    "pine": 100,
+    "birch": 150,
+    "recycled": 70,
+    "ply": 120
+  },
+  "urgencyFee": {
+    "express": 1000,
+    "urgent": 500
+  },
+  "shippingEstimate": 250,
+  "shippingPerPallet": true,
+  "cgstPercent": 6,
+  "sgstPercent": 6,
+  "paymentTermsNotes": "50% advance payment. Balance on delivery. Subject to standard terms and conditions.",
+  "_class": "com.saravanatimbers.palletbuilderbackend.models.AdminSettings"
+}]

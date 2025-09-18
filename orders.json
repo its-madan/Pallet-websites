@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "68678ce9a1e02e4f30e7d007"
+  },
+  "orderId": "ORD-1751616745719",
+  "userId": "madansakthi2008@gmail.com",
+  "userName": "Madankumar",
+  "quoteDetails": {
+    "pincode": "637215",
+    "quantity": "12",
+    "address": "2/86, tiruchengode",
+    "totalPrice": 31584,
+    "length": "1233",
+    "palletType": "euro",
+    "customerName": "Madankumar",
+    "quoteId": "Q46109561",
+    "material": "birch",
+    "urgency": "express",
+    "phone": "8248978678",
+    "additionalRequirements": "",
+    "width": "1233",
+    "loadCapacity": "1233",
+    "company": "kv packaging",
+    "state": "Tamil Nadu",
+    "email": "madansakthi2008@gmail.com",
+    "height": "1233"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-04T08:12:25.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-04T08:12:25.726Z"
+  },
+  "_class": "com.saravanatimbers.palletbuilderbackend.models.Order"
+}]

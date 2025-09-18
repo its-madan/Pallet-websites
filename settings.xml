@@ -1,0 +1,60 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    
+    <profiles>
+        <profile>
+            <id>default</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+    
+    <activeProfiles>
+        <activeProfile>default</activeProfile>
+    </activeProfiles>
+    
+    <mirrors>
+        <mirror>
+            <id>central-mirror</id>
+            <name>Central Repository Mirror</name>
+            <url>https://repo1.maven.org/maven2</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+    
+    <proxies>
+        <!--
+        <proxy>
+            <id>http-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>your-proxy-host</host>
+            <port>your-proxy-port</port>
+            <username>your-proxy-username</username>
+            <password>your-proxy-password</password>
+            <nonProxyHosts>localhost|127.0.0.1</nonProxyHosts>
+        </proxy>
+        <proxy>
+            <id>https-proxy</id>
+            <active>true</active>
+            <protocol>https</protocol>
+            <host>your-proxy-host</host>
+            <port>your-proxy-port</port>
+            <username>your-proxy-username</username>
+            <password>your-proxy-password</password>
+            <nonProxyHosts>localhost|127.0.0.1</nonProxyHosts>
+        </proxy>
+        -->
+    </proxies>
+</settings> 
